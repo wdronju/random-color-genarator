@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #111111;
+    padding: 33px;
+}
+main h1{
+    color: white;
+    text-align: center;
+    text-shadow: -1px 1px 0 #41ba45,
+    1px 1px 0 #c63d2b,
+   1px -1px 0 #42afac,
+  -1px -1px 0 #c6c23f;
+}
+
+main button{
+    background-color: aliceblue ;
+    padding: 14px;
+    border: none;
+    margin-top: 33px;
+    font-size: 22px;
+}
+main button:hover{
+    background-color: yellow;
+    color: black
+    ;
+    cursor: pointer;
+}
+
+.colorcode{
+    max-width: 500px;
+    background-color: #292423;
+    padding: 22px;
+    margin-top: 22px;
+}
+.colorcode input{
+    padding: 11px;
+}
+button#copy{
+    font-size: 16px;
+    padding: 11px;
+    margin-left: 9px;
+}
